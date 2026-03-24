@@ -1,7 +1,7 @@
   int rand1;
   int rand2;
   int rand3;
-  int waitTime=5000;
+  int waitTime=10000;
 
   //defining sensor pins
   #define Strong1 36 
@@ -58,15 +58,40 @@ void loop() {
         digitalWrite(GREEN2, LOW);
         digitalWrite(BLUE2, LOW);
     
-    delay(waitTime); //delay 5 seconds 
-
-
-
-  
-
-
-
-//}
-
-
+    delay(waitTime); //delay 
+ }
+ //rand2 is the smallest var
+  if(rand2<rand1 && rand2<rand3){
+      //set LED1 BLUE
+        digitalWrite(RED1, LOW);
+        digitalWrite(GREEN1, LOW);
+        digitalWrite(BLUE1, HIGH);
+      //set LED2 OFF
+        digitalWrite(RED2, LOW);
+        digitalWrite(GREEN2, LOW);
+        digitalWrite(BLUE2, LOW);
+      //set LED3 RED
+        digitalWrite(RED2, HIGH);
+        digitalWrite(GREEN2, LOW);
+        digitalWrite(BLUE2, LOW);
+    
+    delay(waitTime); //delay
+ }
+ //rand3 is the smallest var
+  if(rand3<rand1 && rand3<rand2){
+      //set LED1 OFF
+        digitalWrite(RED1, LOW);
+        digitalWrite(GREEN1, LOW);
+        digitalWrite(BLUE1, LOW);
+      //set LED2 RED
+        digitalWrite(RED2, HIGH);
+        digitalWrite(GREEN2, LOW);
+        digitalWrite(BLUE2, LOW);
+      //set LED3 BLUE
+        digitalWrite(RED2, LOW);
+        digitalWrite(GREEN2, LOW);
+        digitalWrite(BLUE2, HIGH);
+    
+    delay(waitTime); //delay 
+ }
 }
