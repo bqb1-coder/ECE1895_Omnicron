@@ -119,7 +119,46 @@ void loop() {
         digitalWrite(BLUE2, LOW);
     
     delay(waitTime); //delay
+    //now checking the slots for the idols. the red hole corresponds to the stronger idol, the blue is weaker
 
+    if(Weak2 == LOW){ //idol is in the second LED spot
+      digitalWrite(LED_PIN, HIGH); //incorrect choice
+
+      //return to start of the loop
+      return;
+    }
+    if(Weak1 == HIGH || Weak3 == HIGH){ //idol is not in the first or third led location
+      digitalWrite(LED_PIN, HIGH); //incorrect choice
+
+      //return to start of the loop
+      return;
+    }
+    if(Weak1 == LOW){ //if there is an idol in the first LEDs location
+      if(Strong1 == LOW){ //if that idol is the weaker idol
+        one_right=true; //correct choice
+      }else{ //if it is the stronger idol here
+        digitalWrite(LED_PIN, HIGH); //incorrect choice
+
+        //return to start of the loop
+        return;
+      }
+    }
+    if(Weak3 == LOW){ //if there is an idol in the third location
+      if(Strong3 == LOW){ //strong idol is not placed in the third LED location
+        digitalWrite(LED_PIN, HIGH); //incorrect choice
+
+        //return to start of the loop
+        return;
+      }else{ //strong idol is in the third LED location
+        two_right = true;
+      }
+    }
+    if(two_right && one_right){
+      digitalWrite(LED_PIN, LOW); //correct choices
+
+        //return to start of the loop
+        return;
+    }
 
  }
  //rand3 is the smallest var
@@ -138,5 +177,45 @@ void loop() {
         digitalWrite(BLUE2, HIGH);
     
     delay(waitTime); //delay 
+    //now checking the slots for the idols. the red hole corresponds to the stronger idol, the blue is weaker
+
+    if(Weak1 == LOW){ //idol is in the first LED spot
+      digitalWrite(LED_PIN, HIGH); //incorrect choice
+
+      //return to start of the loop
+      return;
+    }
+    if(Weak2 == HIGH || Weak3 == HIGH){ //idol is not in the third or second led location
+      digitalWrite(LED_PIN, HIGH); //incorrect choice
+
+      //return to start of the loop
+      return;
+    }
+    if(Weak2 == LOW){ //if there is an idol in the first LEDs location
+      if(Strong2 == HIGH){ //if that idol is the stronger idol
+        one_right=true; //correct choice
+      }else{ //if it is the weaker idol here
+        digitalWrite(LED_PIN, HIGH); //incorrect choice
+
+        //return to start of the loop
+        return;
+      }
+    }
+    if(Weak3 == LOW){
+      if(Strong3 == HIGH){ //strong idol is placed in the third LED location
+        digitalWrite(LED_PIN, HIGH); //incorrect choice
+
+        //return to start of the loop
+        return;
+      }else{ //weak idol is in the third LED location
+        two_right = true;
+      }
+    }
+    if(two_right && one_right){
+      digitalWrite(LED_PIN, LOW); //correct choices
+
+        //return to start of the loop
+        return;
+    }
  }
 }
