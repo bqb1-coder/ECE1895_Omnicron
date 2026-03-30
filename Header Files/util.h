@@ -1,7 +1,6 @@
 #define UART_INIT_COMMS 		0x55  // 0101 0101
 #define UART_MASTER_ID  		0x65  // 0110 0101
 #define UART_PERIPH1_ID 		0xA5  // 1010 0101
-#define 
 
 void clearSerialBuffer()
 {

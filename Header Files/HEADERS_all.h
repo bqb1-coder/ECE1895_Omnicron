@@ -5,4 +5,5 @@
 #include "game_functions.h"
 #include "keypad.h"
 #include "OLED.h"
+#include "timer.h"
 #include "util.h"

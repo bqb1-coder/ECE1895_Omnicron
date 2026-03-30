@@ -3,7 +3,7 @@
 
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
-#define SCREEN_ADDRESS 0x3C
+// #define SCREEN_ADDRESS 0x3C
 #define LETTER_WIDTH 5
 #define LETTER_HEIGHT 7
 
@@ -11,12 +11,11 @@ bool OLED__configured = false;
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
-void beginDisplay() {
+void beginDisplay(int SCREEN_ADDRESS) {
   delay(500);
 
   if(!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
-    Serial.println(F("SSD1306 allocation failed"));
-    while(true); // Don't proceed, loop forever
+    ERR__raiseError(__FILE__, __func__, "SSD1306 Allocation failed");
   }
 
   display.setTextColor(WHITE);
