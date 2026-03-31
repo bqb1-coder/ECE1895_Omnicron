@@ -1,3 +1,6 @@
+#ifndef ERROR_H
+#define ERROR_H
+
 void ERR__raiseError(const char* file, const char* function, const char* note)
 {
     Serial.println();
@@ -25,3 +28,6 @@ void ERR__raiseWarning(const char* file, const char* function, const char* note)
 
     while(1);
 }
+
+
+#endif

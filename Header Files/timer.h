@@ -1,3 +1,8 @@
+#ifndef TIMER_H
+#define TIMER_H
+
+
+
 #define RTC__ADDRESS               0x32
 #define RTC__TIMER_COUNTER_0_REG   0x0B
 #define RTC__TIMER_COUNTER_1_REG   0x0C
@@ -118,3 +123,7 @@ void resetRTCCounter()
 {
   RTC__COUNTER = 0;
 }
+
+
+
+#endif

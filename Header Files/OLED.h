@@ -1,15 +1,17 @@
+#ifndef OLED_H
+#define OLED_H
+
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
-// #define SCREEN_ADDRESS 0x3C
+#define SCREEN_1_ADDRESS 0x3C
+#define SCREEN_2_ADDRESS 0x3D
 #define LETTER_WIDTH 5
 #define LETTER_HEIGHT 7
 
 bool OLED__configured = false;
-
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 void beginDisplay(int SCREEN_ADDRESS) {
   delay(500);
@@ -57,3 +59,8 @@ void printCenteredString(char * str, int len)
   display.print(str);
 
 }
+
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
+beginDisplay(SCREEN_1_ADDRESS);
+
+#endif

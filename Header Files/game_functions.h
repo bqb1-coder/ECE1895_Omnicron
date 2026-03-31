@@ -1,3 +1,6 @@
+#ifndef GAME_FUNCTIONS_H
+#define GAME_FUNCTIONS_H
+
 bool keypadChallenge(int stringLength, int maxTime = 5000)
 {
   char pressedChar = '-';
@@ -67,3 +70,6 @@ bool keypadChallenge(int stringLength, int maxTime = 5000)
       return true;
   }
 }
+
+
+#endif

@@ -1,3 +1,5 @@
+#ifndef KEYPAD_H
+#define KEYPAD_H
 
 const char KP__TABLE [4][4] = {
   {'1', '2', '3', 'A'},
@@ -149,3 +151,4 @@ void pickRandomString(char * buffer, int len)
   buffer[len] = '\0';
 }
 
+#endif

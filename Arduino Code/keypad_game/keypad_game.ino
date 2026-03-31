@@ -9,7 +9,6 @@ void setup() {
   Serial.begin(9600);
   pinMode(2, OUTPUT);
   randomSeed(analogRead(A3));
-  beginDisplay(SCREEN_ADDRESS);
   initRTC(RTC_INT_PIN);
 
   display.display();
