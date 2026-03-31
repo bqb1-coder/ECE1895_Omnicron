@@ -1,0 +1,507 @@
+Added Component: Designator=A1_07(FP-TSW-108-08-G-S-MFG)
+Add component (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Conn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://suddendocs.samtec.com/catalog_english/tsw_th.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Conn Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Conn Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Gold,Nickel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Headers and Wire Housings"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "unset"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CONN HEADER VERT 8POS 2.54MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Url"; Value = "http://suddendocs.samtec.com/prints/tsw-xxx-xx-x-x-xx-xxx-footprint.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.71mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TSW-108-08-G-S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "TSW - Samtec 2.54mm Pin Header 13.46mm Overall Pin Length 5.08mm Tail"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Contacts"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/tsw-108-08-g-s-samtec-272653"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TSW-108-08-G-S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Added Component: Designator=A2_07(FP-TSW-108-08-G-S-MFG)
+Add component (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Conn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://suddendocs.samtec.com/catalog_english/tsw_th.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Conn Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Conn Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Gold,Nickel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Headers and Wire Housings"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "unset"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CONN HEADER VERT 8POS 2.54MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Url"; Value = "http://suddendocs.samtec.com/prints/tsw-xxx-xx-x-x-xx-xxx-footprint.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.71mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TSW-108-08-G-S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "TSW - Samtec 2.54mm Pin Header 13.46mm Overall Pin Length 5.08mm Tail"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Contacts"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/tsw-108-08-g-s-samtec-272653"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TSW-108-08-G-S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Added Component: Designator=C1(FP-RAD-TH-D_10_0_5-L_16_1-MFG)
+Add component (AddParameter): Name = "Capacitance"; Value = "330uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "Radial"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Construction"; Value = "RADIAL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "10mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "16mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Diameter"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead/Base Style"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "16mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Life (Hours)"; Value = "2000Hour"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Ammo Pack"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ripple Current"; Value = "410mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "NHG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Radial"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=D1_29(FP-TSW-108-08-G-S-MFG)
+Add component (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Conn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://suddendocs.samtec.com/catalog_english/tsw_th.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Conn Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Conn Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Gold,Nickel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Headers and Wire Housings"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "unset"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CONN HEADER VERT 8POS 2.54MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Url"; Value = "http://suddendocs.samtec.com/prints/tsw-xxx-xx-x-x-xx-xxx-footprint.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.71mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TSW-108-08-G-S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "TSW - Samtec 2.54mm Pin Header 13.46mm Overall Pin Length 5.08mm Tail"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Contacts"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/tsw-108-08-g-s-samtec-272653"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TSW-108-08-G-S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Added Component: Designator=D2_29(FP-TSW-108-08-G-S-MFG)
+Add component (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Conn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://suddendocs.samtec.com/catalog_english/tsw_th.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Conn Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Conn Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Gold,Nickel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Headers and Wire Housings"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "unset"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CONN HEADER VERT 8POS 2.54MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Url"; Value = "http://suddendocs.samtec.com/prints/tsw-xxx-xx-x-x-xx-xxx-footprint.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.71mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TSW-108-08-G-S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "TSW - Samtec 2.54mm Pin Header 13.46mm Overall Pin Length 5.08mm Tail"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Contacts"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/tsw-108-08-g-s-samtec-272653"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TSW-108-08-G-S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Added Component: Designator=D_10_13(FP-TSW-108-08-G-S-MFG)
+Add component (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Conn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://suddendocs.samtec.com/catalog_english/tsw_th.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Conn Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Conn Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Gold,Nickel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Headers and Wire Housings"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "unset"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CONN HEADER VERT 8POS 2.54MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Url"; Value = "http://suddendocs.samtec.com/prints/tsw-xxx-xx-x-x-xx-xxx-footprint.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.71mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TSW-108-08-G-S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "TSW - Samtec 2.54mm Pin Header 13.46mm Overall Pin Length 5.08mm Tail"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Contacts"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/tsw-108-08-g-s-samtec-272653"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TSW-108-08-G-S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Added Component: Designator=GND(FP-TSW-108-08-G-S-MFG)
+Add component (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Conn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://suddendocs.samtec.com/catalog_english/tsw_th.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Conn Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Conn Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Gold,Nickel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Headers and Wire Housings"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "unset"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CONN HEADER VERT 8POS 2.54MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Url"; Value = "http://suddendocs.samtec.com/prints/tsw-xxx-xx-x-x-xx-xxx-footprint.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.71mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TSW-108-08-G-S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "TSW - Samtec 2.54mm Pin Header 13.46mm Overall Pin Length 5.08mm Tail"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Contacts"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/tsw-108-08-g-s-samtec-272653"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TSW-108-08-G-S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Added Component: Designator=J?(FP-TSW-102-14-G-S-MFG)
+Add component (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish - Mating"; Value = "GOLD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Bronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Mating Length"; Value = "0.32inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Pull"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Color"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Polyester"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Color"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Material"; Value = "PBT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "5.08mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "7.6A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (AC)"; Value = "550V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "TSW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "2.54mm"; VariantName = "[No Variations]"
+Added Component: Designator=MD1(FP-A000005-MFG)
+Add component (AddParameter): Name = "Core Architecture"; Value = "AVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Data Bus Width"; Value = "8b"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Evaluation Kit"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Interface"; Value = "I2C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Bits"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "12V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "50"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "AVR® ATmega"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.358383oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5inch"; VariantName = "[No Variations]"
+Added Component: Designator=MD2(FP-A000005-MFG)
+Add component (AddParameter): Name = "Core Architecture"; Value = "AVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Data Bus Width"; Value = "8b"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Evaluation Kit"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.25inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Interface"; Value = "I2C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Bits"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "12V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "50"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "AVR® ATmega"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.358383oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5inch"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESA60-630X240)
+Add component (AddParameter): Name = "Case\Package"; Value = "Axial"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.yageo.com/documents/recent/Yageo%20LR_MFR_2013.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Apr-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.248 inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Axial Lead, Dia 2.4 mm, Body Length 6.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "MFR-25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "250 mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10 kohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "250 V"; VariantName = "[No Variations]"
+Added Component: Designator=RST(FP-FSM2JART-MFG)
+Add component (AddParameter): Name = "Actuator Length"; Value = "0.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Actuator Material"; Value = "Resin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Actuator Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Current Rating"; Value = "50mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Copper Alloy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "100mR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "50mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Electrical Life"; Value = "100000Cycles"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ELV"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Illumination Type"; Value = "Non-Illuminated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "12V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-35°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Force"; Value = "260gf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "FSMJRT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Switch Function"; Value = "Off-Mom"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Throw Configuration"; Value = "SPST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Switch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "12V"; VariantName = "[No Variations]"
+Added Component: Designator=U1(TO220FP)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000444.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "16/11/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "TO, Thru-Hole, Vertical, Heatsink Mounted; 3 In-Line Leads; Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "TO220FP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "2011"; VariantName = "[No Variations]"
+Added Component: Designator=VCC(FP-TSW-108-08-G-S-MFG)
+Add component (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Conn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://suddendocs.samtec.com/catalog_english/tsw_th.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Conn Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Conn Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Gold,Nickel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Headers and Wire Housings"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "unset"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CONN HEADER VERT 8POS 2.54MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Url"; Value = "http://suddendocs.samtec.com/prints/tsw-xxx-xx-x-x-xx-xxx-footprint.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.71mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TSW-108-08-G-S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "TSW - Samtec 2.54mm Pin Header 13.46mm Overall Pin Length 5.08mm Tail"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Contacts"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/tsw-108-08-g-s-samtec-272653"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TSW-108-08-G-S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=C1-1
+Added Pin To Net: NetName=+5 Pin=MD1-30
+Added Pin To Net: NetName=+5 Pin=MD2-30
+Added Pin To Net: NetName=+5 Pin=R?-1
+Added Pin To Net: NetName=+5 Pin=U1-3
+Added Pin To Net: NetName=+5 Pin=VCC-1
+Added Pin To Net: NetName=+5 Pin=VCC-2
+Added Pin To Net: NetName=+5 Pin=VCC-3
+Added Pin To Net: NetName=+5 Pin=VCC-4
+Added Pin To Net: NetName=+5 Pin=VCC-5
+Added Pin To Net: NetName=+5 Pin=VCC-6
+Added Pin To Net: NetName=+5 Pin=VCC-7
+Added Pin To Net: NetName=+5 Pin=VCC-8
+Added Net: Name=+5
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=GND-1
+Added Pin To Net: NetName=GND Pin=GND-2
+Added Pin To Net: NetName=GND Pin=GND-3
+Added Pin To Net: NetName=GND Pin=GND-4
+Added Pin To Net: NetName=GND Pin=GND-5
+Added Pin To Net: NetName=GND Pin=GND-6
+Added Pin To Net: NetName=GND Pin=GND-7
+Added Pin To Net: NetName=GND Pin=GND-8
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GND Pin=MD1-4
+Added Pin To Net: NetName=GND Pin=MD1-29
+Added Pin To Net: NetName=GND Pin=MD2-4
+Added Pin To Net: NetName=GND Pin=MD2-29
+Added Pin To Net: NetName=GND Pin=RST-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetA1_07_1 Pin=A1_07-1
+Added Pin To Net: NetName=NetA1_07_1 Pin=MD1-19
+Added Net: Name=NetA1_07_1
+Added Pin To Net: NetName=NetA1_07_2 Pin=A1_07-2
+Added Pin To Net: NetName=NetA1_07_2 Pin=MD1-20
+Added Net: Name=NetA1_07_2
+Added Pin To Net: NetName=NetA1_07_3 Pin=A1_07-3
+Added Pin To Net: NetName=NetA1_07_3 Pin=MD1-21
+Added Net: Name=NetA1_07_3
+Added Pin To Net: NetName=NetA1_07_4 Pin=A1_07-4
+Added Pin To Net: NetName=NetA1_07_4 Pin=MD1-22
+Added Net: Name=NetA1_07_4
+Added Pin To Net: NetName=NetA1_07_5 Pin=A1_07-5
+Added Pin To Net: NetName=NetA1_07_5 Pin=MD1-23
+Added Net: Name=NetA1_07_5
+Added Pin To Net: NetName=NetA1_07_6 Pin=A1_07-6
+Added Pin To Net: NetName=NetA1_07_6 Pin=MD1-24
+Added Net: Name=NetA1_07_6
+Added Pin To Net: NetName=NetA1_07_7 Pin=A1_07-7
+Added Pin To Net: NetName=NetA1_07_7 Pin=MD1-25
+Added Net: Name=NetA1_07_7
+Added Pin To Net: NetName=NetA1_07_8 Pin=A1_07-8
+Added Pin To Net: NetName=NetA1_07_8 Pin=MD1-26
+Added Net: Name=NetA1_07_8
+Added Pin To Net: NetName=NetA2_07_1 Pin=A2_07-1
+Added Pin To Net: NetName=NetA2_07_1 Pin=MD2-19
+Added Net: Name=NetA2_07_1
+Added Pin To Net: NetName=NetA2_07_2 Pin=A2_07-2
+Added Pin To Net: NetName=NetA2_07_2 Pin=MD2-20
+Added Net: Name=NetA2_07_2
+Added Pin To Net: NetName=NetA2_07_3 Pin=A2_07-3
+Added Pin To Net: NetName=NetA2_07_3 Pin=MD2-21
+Added Net: Name=NetA2_07_3
+Added Pin To Net: NetName=NetA2_07_4 Pin=A2_07-4
+Added Pin To Net: NetName=NetA2_07_4 Pin=MD2-22
+Added Net: Name=NetA2_07_4
+Added Pin To Net: NetName=NetA2_07_5 Pin=A2_07-5
+Added Pin To Net: NetName=NetA2_07_5 Pin=MD2-23
+Added Net: Name=NetA2_07_5
+Added Pin To Net: NetName=NetA2_07_6 Pin=A2_07-6
+Added Pin To Net: NetName=NetA2_07_6 Pin=MD2-24
+Added Net: Name=NetA2_07_6
+Added Pin To Net: NetName=NetA2_07_7 Pin=A2_07-7
+Added Pin To Net: NetName=NetA2_07_7 Pin=MD2-25
+Added Net: Name=NetA2_07_7
+Added Pin To Net: NetName=NetA2_07_8 Pin=A2_07-8
+Added Pin To Net: NetName=NetA2_07_8 Pin=MD2-26
+Added Net: Name=NetA2_07_8
+Added Pin To Net: NetName=NetD1_29_1 Pin=D1_29-1
+Added Pin To Net: NetName=NetD1_29_1 Pin=MD1-5
+Added Net: Name=NetD1_29_1
+Added Pin To Net: NetName=NetD1_29_2 Pin=D1_29-2
+Added Pin To Net: NetName=NetD1_29_2 Pin=MD1-6
+Added Net: Name=NetD1_29_2
+Added Pin To Net: NetName=NetD1_29_3 Pin=D1_29-3
+Added Pin To Net: NetName=NetD1_29_3 Pin=MD1-7
+Added Net: Name=NetD1_29_3
+Added Pin To Net: NetName=NetD1_29_4 Pin=D1_29-4
+Added Pin To Net: NetName=NetD1_29_4 Pin=MD1-8
+Added Net: Name=NetD1_29_4
+Added Pin To Net: NetName=NetD1_29_5 Pin=D1_29-5
+Added Pin To Net: NetName=NetD1_29_5 Pin=MD1-9
+Added Net: Name=NetD1_29_5
+Added Pin To Net: NetName=NetD1_29_6 Pin=D1_29-6
+Added Pin To Net: NetName=NetD1_29_6 Pin=MD1-10
+Added Net: Name=NetD1_29_6
+Added Pin To Net: NetName=NetD1_29_7 Pin=D1_29-7
+Added Pin To Net: NetName=NetD1_29_7 Pin=MD1-11
+Added Net: Name=NetD1_29_7
+Added Pin To Net: NetName=NetD1_29_8 Pin=D1_29-8
+Added Pin To Net: NetName=NetD1_29_8 Pin=MD1-12
+Added Net: Name=NetD1_29_8
+Added Pin To Net: NetName=NetD2_29_1 Pin=D2_29-1
+Added Pin To Net: NetName=NetD2_29_1 Pin=MD2-5
+Added Net: Name=NetD2_29_1
+Added Pin To Net: NetName=NetD2_29_2 Pin=D2_29-2
+Added Pin To Net: NetName=NetD2_29_2 Pin=MD2-6
+Added Net: Name=NetD2_29_2
+Added Pin To Net: NetName=NetD2_29_3 Pin=D2_29-3
+Added Pin To Net: NetName=NetD2_29_3 Pin=MD2-7
+Added Net: Name=NetD2_29_3
+Added Pin To Net: NetName=NetD2_29_4 Pin=D2_29-4
+Added Pin To Net: NetName=NetD2_29_4 Pin=MD2-8
+Added Net: Name=NetD2_29_4
+Added Pin To Net: NetName=NetD2_29_5 Pin=D2_29-5
+Added Pin To Net: NetName=NetD2_29_5 Pin=MD2-9
+Added Net: Name=NetD2_29_5
+Added Pin To Net: NetName=NetD2_29_6 Pin=D2_29-6
+Added Pin To Net: NetName=NetD2_29_6 Pin=MD2-10
+Added Net: Name=NetD2_29_6
+Added Pin To Net: NetName=NetD2_29_7 Pin=D2_29-7
+Added Pin To Net: NetName=NetD2_29_7 Pin=MD2-11
+Added Net: Name=NetD2_29_7
+Added Pin To Net: NetName=NetD2_29_8 Pin=D2_29-8
+Added Pin To Net: NetName=NetD2_29_8 Pin=MD2-12
+Added Net: Name=NetD2_29_8
+Added Pin To Net: NetName=NetD_10_13_1 Pin=D_10_13-1
+Added Pin To Net: NetName=NetD_10_13_1 Pin=MD1-13
+Added Net: Name=NetD_10_13_1
+Added Pin To Net: NetName=NetD_10_13_2 Pin=D_10_13-2
+Added Pin To Net: NetName=NetD_10_13_2 Pin=MD1-14
+Added Net: Name=NetD_10_13_2
+Added Pin To Net: NetName=NetD_10_13_3 Pin=D_10_13-3
+Added Pin To Net: NetName=NetD_10_13_3 Pin=MD1-15
+Added Net: Name=NetD_10_13_3
+Added Pin To Net: NetName=NetD_10_13_4 Pin=D_10_13-4
+Added Pin To Net: NetName=NetD_10_13_4 Pin=MD1-16
+Added Net: Name=NetD_10_13_4
+Added Pin To Net: NetName=NetD_10_13_5 Pin=D_10_13-5
+Added Pin To Net: NetName=NetD_10_13_5 Pin=MD2-13
+Added Net: Name=NetD_10_13_5
+Added Pin To Net: NetName=NetD_10_13_6 Pin=D_10_13-6
+Added Pin To Net: NetName=NetD_10_13_6 Pin=MD2-14
+Added Net: Name=NetD_10_13_6
+Added Pin To Net: NetName=NetD_10_13_7 Pin=D_10_13-7
+Added Pin To Net: NetName=NetD_10_13_7 Pin=MD2-15
+Added Net: Name=NetD_10_13_7
+Added Pin To Net: NetName=NetD_10_13_8 Pin=D_10_13-8
+Added Pin To Net: NetName=NetD_10_13_8 Pin=MD2-16
+Added Net: Name=NetD_10_13_8
+Added Pin To Net: NetName=NetJ?_1 Pin=J?-1
+Added Pin To Net: NetName=NetJ?_1 Pin=U1-1
+Added Net: Name=NetJ?_1
+Added Pin To Net: NetName=NetMD1_1 Pin=MD1-1
+Added Pin To Net: NetName=NetMD1_1 Pin=MD2-2
+Added Net: Name=NetMD1_1
+Added Pin To Net: NetName=NetMD1_2 Pin=MD1-2
+Added Pin To Net: NetName=NetMD1_2 Pin=MD2-1
+Added Net: Name=NetMD1_2
+Added Pin To Net: NetName=NetMD1_3 Pin=MD1-3
+Added Pin To Net: NetName=NetMD1_3 Pin=MD1-28
+Added Pin To Net: NetName=NetMD1_3 Pin=MD2-3
+Added Pin To Net: NetName=NetMD1_3 Pin=MD2-28
+Added Pin To Net: NetName=NetMD1_3 Pin=R?-2
+Added Pin To Net: NetName=NetMD1_3 Pin=RST-2
+Added Net: Name=NetMD1_3
+Added Class: Name=Omnicron_PCB
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
