@@ -1,20 +1,23 @@
-#include "C:\Users\brade\OneDrive - University of Pittsburgh\Classes 2025-2026 Spring\Junior Design\Bop-It!\Header Files\error.h"
-#include "C:\Users\brade\OneDrive - University of Pittsburgh\Classes 2025-2026 Spring\Junior Design\Bop-It!\Header Files\keypad.h"
-#include "C:\Users\brade\OneDrive - University of Pittsburgh\Classes 2025-2026 Spring\Junior Design\Bop-It!\Header Files\OLED.h"
-#include "C:\Users\brade\OneDrive - University of Pittsburgh\Classes 2025-2026 Spring\Junior Design\Bop-It!\Header Files\game_functions.h"
+#include <Wire.h>
+#include "MAIN_HEADER.h"
+
+#define SCREEN_ADDRESS 0x3C
+#define INT_PIN        2
 
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
   pinMode(2, OUTPUT);
   randomSeed(analogRead(A3));
-  beginDisplay();
+  beginDisplay(SCREEN_ADDRESS);
+  initRTCTimer(INT_PIN);
 
   display.display();
 }
 
 void loop() {
-  bool passed = keypadChallenge(6);
+
+  bool passed = keypadChallenge(5);
   digitalWrite(2, !passed);
   while(1);
 }

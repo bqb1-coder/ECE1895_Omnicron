@@ -36,20 +36,20 @@ void printCenteredChar(char c, int textSize)
 }
 
 
-void printCenteredString(String str)
+void printCenteredString(char * str, int len)
 {
+  
   if (!OLED__configured)
     ERR__raiseError(__FILE__, __func__, "OLED not configured");
-  if (str.length() < 1 || str.length() > 20)
+  if (len < 1 || len > 20)
     ERR__raiseError(__FILE__, __func__, "Bad string length");
   
 
   const int MAX_FONT_SIZE = 6;
-  int strLen = str.length();
-  int horzPixelsNeeded = SCREEN_WIDTH / (strLen * (LETTER_WIDTH + 1));
+  int horzPixelsNeeded = SCREEN_WIDTH / (len * (LETTER_WIDTH + 1));
   int textSize = min(horzPixelsNeeded, MAX_FONT_SIZE);
 
-  int xPos = SCREEN_WIDTH / 2 - (LETTER_WIDTH + 1) * strLen * textSize / 2;
+  int xPos = SCREEN_WIDTH / 2 - (LETTER_WIDTH + 1) * len * textSize / 2;
   int yPos = SCREEN_HEIGHT / 2 - (LETTER_HEIGHT + 1) * textSize / 2;
 
   display.setTextSize(textSize);

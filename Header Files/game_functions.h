@@ -5,21 +5,28 @@ bool keypadChallenge(int stringLength, int maxTime = 5000)
   int startTime = 0;
   int currentTime = 0;
 
-  String displayString = "";
-  String randomString = "";
+  char displayString[stringLength+1];
+  char randomString[stringLength+1];
 
   int numCorrect = 0;
 
+  
 
   //Pick a new random string of characters
-  randomString = pickRandomString(stringLength);
-  displayString = randomString;
+  pickRandomString(randomString, stringLength);
+  strcpy(displayString, randomString);
+
+  // Serial.print("\nRandom string length: ");
+  // Serial.println(randomString.length());
+
+  // Serial.print("\nDisplay string length: ");
+  // Serial.println(displayString.length());
 
   numCorrect = 0;
 
   // Write current string to screen
   display.clearDisplay();
-  printCenteredString(displayString);
+  printCenteredString(displayString, stringLength);
   display.display();
 
   //Record start time of this challenge
@@ -48,9 +55,9 @@ bool keypadChallenge(int stringLength, int maxTime = 5000)
       continue;
 
     // If they get the key correct 
-    if (pressedChar == randomString.charAt(numCorrect))
+    if (pressedChar == randomString[numCorrect])
     {
-      displayString.setCharAt(numCorrect, ' ');
+      displayString[numCorrect] = ' ';
       numCorrect++;
     }
     else //If not, return false;
@@ -60,7 +67,7 @@ bool keypadChallenge(int stringLength, int maxTime = 5000)
 
     // Write current string to screen
     display.clearDisplay();
-    printCenteredString(displayString);
+    printCenteredString(displayString, stringLength);
     display.display();
 
     //When they get all correct, loop back around and go again

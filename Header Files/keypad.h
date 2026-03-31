@@ -137,16 +137,15 @@ char scanKeypad()
 
 char pickRandomChar()
 {
-  return KP__TABLE[random(0,4)][random(0,4)];
+  char c = KP__TABLE[random(0,4)][random(0,4)];
+  return c;
 }
 
-String pickRandomString(int len)
+void pickRandomString(char * buffer, int len)
 {
-  String str = "";
-
   for (int i = 0; i < len; i++)
-    str += pickRandomChar();
-
-  return str;
+    buffer[i] = pickRandomChar();
+  
+  buffer[len] = '\0';
 }
 
