@@ -7,11 +7,6 @@ void clearSerialBuffer()
 	while (Serial.available() > 0) Serial.read();
 }
 
-void decodeSerialLine()
-{
-
-}
-
 // Byte 1 = 01010101
 // Byte 2 = 01010101
 // Byte 3 = Peripheral ID

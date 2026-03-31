@@ -16,11 +16,6 @@ bool keypadChallenge(int stringLength, int maxTime = 5000)
   pickRandomString(randomString, stringLength);
   strcpy(displayString, randomString);
 
-  // Serial.print("\nRandom string length: ");
-  // Serial.println(randomString.length());
-
-  // Serial.print("\nDisplay string length: ");
-  // Serial.println(displayString.length());
 
   numCorrect = 0;
 
@@ -29,15 +24,12 @@ bool keypadChallenge(int stringLength, int maxTime = 5000)
   printCenteredString(displayString, stringLength);
   display.display();
 
-  //Record start time of this challenge
-  startTime = millis();
-
 
   //Enter the challenge
   while (1)
   {
     //Check the timer, end if over time
-    if (millis() - startTime >= maxTime )
+    if (RTCTimerExpired())
     {
       return false;
     }

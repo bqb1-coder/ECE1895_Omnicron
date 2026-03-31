@@ -22,9 +22,14 @@ int getRTCCounterValue()
 }
 
 // Returns whether the RTC counter variable has maxed out
-bool checkRTCCounter()
+bool RTCTimerExpired()
 {
   return getRTCCounterValue() == RTC__MAX_COUNT;
+}
+
+bool isTimerStarted()
+{
+  return RTC__TIMER_STARTED;
 }
 
 void RTC__interruptHandler()
