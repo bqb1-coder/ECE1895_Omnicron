@@ -1,0 +1,12 @@
+Change Component Designator: OldDesignator=R1 NewDesignator=R2
+Change Component Designator: OldDesignator=R2 NewDesignator=R1
+Change Component Designator: OldDesignator=RST1 NewDesignator=RST2
+Change Component Designator: OldDesignator=RST2 NewDesignator=RST1
+Change Component Designator: OldDesignator=U1_B NewDesignator=B1
+Change Component Designator: OldDesignator=U1_C NewDesignator=C1
+Change Component Designator: OldDesignator=U1_D NewDesignator=D1
+Change Component Designator: OldDesignator=U2_B NewDesignator=B2
+Change Component Designator: OldDesignator=U2_C NewDesignator=C2
+Change Component Designator: OldDesignator=U2_D NewDesignator=D2
+Added Member To Class: ClassName=Omnicron_PCB Member=Component B2 TSW-108-08-G-S
+Added Member To Class: ClassName=Omnicron_PCB Member=Component C2 TSW-108-08-G-S
