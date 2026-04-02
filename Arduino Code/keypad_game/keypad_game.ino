@@ -11,8 +11,11 @@
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-  Serial.println("Hello");
-  pinMode(2, OUTPUT);
+  Wire.begin();
+
+  OLED1::begin();
+
+  // pinMode(2, OUTPUT);
   randomSeed(analogRead(A3));
   initRTC(RTC_INT_PIN);
 
