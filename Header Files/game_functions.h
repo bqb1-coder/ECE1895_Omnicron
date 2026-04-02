@@ -23,9 +23,7 @@ bool keypadChallenge(int stringLength, int maxTime = 5000)
   numCorrect = 0;
 
   // Write current string to screen
-  display.clearDisplay();
   printCenteredString(displayString, stringLength);
-  display.display();
 
 
   //Enter the challenge
@@ -61,9 +59,7 @@ bool keypadChallenge(int stringLength, int maxTime = 5000)
     }
 
     // Write current string to screen
-    display.clearDisplay();
     printCenteredString(displayString, stringLength);
-    display.display();
 
     //When they get all correct, loop back around and go again
     if (numCorrect == stringLength)
