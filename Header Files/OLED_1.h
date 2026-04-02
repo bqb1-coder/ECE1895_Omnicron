@@ -7,7 +7,7 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
-namespace OLED
+namespace OLED1
 {
     constexpr int SCREEN_WIDTH = 128;
     constexpr int SCREEN_HEIGHT = 64;
