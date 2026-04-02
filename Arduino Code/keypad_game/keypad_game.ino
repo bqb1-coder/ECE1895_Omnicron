@@ -1,8 +1,5 @@
 #include <Wire.h>
 
-// #define INCLUDE_OLED_1
-// #define INCLUDE_OLED_2
-
 #include "error.h"
 #include "game_functions.h"
 #include "keypad.h"
@@ -36,7 +33,7 @@ void loop() {
 
   bool passed = Games::keypadChallenge(numberKeypadSymbols);
   Timer::stopTimer();
-  digitalWrite(3, !passed);
+  digitalWrite(OUT_PIN, !passed);
   while(1);
 }
 

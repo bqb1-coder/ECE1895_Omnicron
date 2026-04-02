@@ -90,12 +90,7 @@ namespace Timer {
     Wire.write((1 << 4));
     bool end_success = Wire.endTransmission() == 0;
 
-    Serial.print("end_success: ");
-    Serial.println(end_success);
-    Serial.println(Util::readRegisterFrom(EXT_REG, ADDRESS));
-
     timerStarted = end_success;
-    Serial.println(timerStarted);
   }
 
   void stopTimer()
