@@ -4,28 +4,25 @@
   int waitTime=10000;
   bool one_right=false;
   bool two_right=false;
-  //defining sensor pins. Presence is the hall effect sensor. Pole is the reed switch
-  #define Presence1 15
-  #define Pole1 39
-  #define Presence2 16
-  #define Pole2 4
-  #define Presence3 32 
-  #define Pole3 33
+  //defining sensor pins. Pole is the hall effect sensor. Presence is the reed switch
+  #define Presence1 A1
+  #define Pole1 A0
+  #define Presence2 A3
+  #define Pole2 A2
+  #define Presence3 A5
+  #define Pole3 A4
 
   //defining LED1 pins 
-  #define RED1 25
-  #define GREEN1 26 
-  #define BLUE1 27
+  #define RED1 28
+  #define BLUE1 3
 //
   //defining LED2 pins 
-  #define RED2 23
-  #define GREEN2 22
-  #define BLUE2 21
+  #define RED2 4
+  #define BLUE2 5
 
   //defining LED3 pins 
-  #define RED3 19
-  #define GREEN3 18
-  #define BLUE3 17
+  #define RED3 6
+  #define BLUE3 7
 
   #define LED_PIN 2 //LED off when correct sequence
 void setup() {
@@ -41,13 +38,10 @@ void setup() {
   Serial.begin(921600);
   Serial.println("Board started!");  // test message
   pinMode(RED1, OUTPUT);
-  pinMode(GREEN1, OUTPUT);
   pinMode(BLUE1, OUTPUT);
   pinMode(RED2, OUTPUT);
-  pinMode(GREEN2, OUTPUT);
   pinMode(BLUE2, OUTPUT);
   pinMode(RED3, OUTPUT);
-  pinMode(GREEN3, OUTPUT);
   pinMode(BLUE3, OUTPUT);
 
 }
@@ -65,18 +59,16 @@ void loop() {
   Serial.println(rand3);
   
   //rand1 the smallest var
+  rand1=0;
   if(rand1<=rand2 && rand1<=rand3){
       //set LED1 RED
         digitalWrite(RED1, HIGH);
-        digitalWrite(GREEN1, LOW);
         digitalWrite(BLUE1, LOW);
       //set LED2 BLUE
         digitalWrite(RED2, LOW);
-        digitalWrite(GREEN2, LOW);
         digitalWrite(BLUE2, HIGH);
       //set LED3 OFF
         digitalWrite(RED3, LOW);
-        digitalWrite(GREEN3, LOW);
         digitalWrite(BLUE3, LOW);
     
     delay(waitTime); //delay 
@@ -90,33 +82,27 @@ void loop() {
   if(rand2<rand1 && rand2<rand3){
       //set LED1 BLUE
         digitalWrite(RED1, LOW);
-        digitalWrite(GREEN1, LOW);
         digitalWrite(BLUE1, HIGH);
       //set LED2 OFF
         digitalWrite(RED2, LOW);
-        digitalWrite(GREEN2, LOW);
         digitalWrite(BLUE2, LOW);
       //set LED3 RED
         digitalWrite(RED3, HIGH);
-        digitalWrite(GREEN3, LOW);
         digitalWrite(BLUE3, LOW);
     
-    delay(waitTime/10); //delay
+    delay(waitTime); //delay
     idolMatch(Presence3,Presence1,Pole3,Pole1); //first two inputs are where the idol should be. third input is where the Presenceer idol should be. fourth is Pole idol
   }
      //rand3 is the smallest var
   if(rand3<rand1 && rand3<rand2){
       //set LED1 OFF
         digitalWrite(RED1, LOW);
-        digitalWrite(GREEN1, LOW);
         digitalWrite(BLUE1, LOW);
       //set LED2 RED
         digitalWrite(RED2, HIGH);
-        digitalWrite(GREEN2, LOW);
         digitalWrite(BLUE2, LOW);
       //set LED3 BLUE
         digitalWrite(RED3, LOW);
-        digitalWrite(GREEN3, LOW);
         digitalWrite(BLUE3, HIGH);
     
     delay(waitTime); //delay 
@@ -151,24 +137,42 @@ void idolMatch(int presencePin1, int presencePin2, int polePin1, int polePin2){
     if(two_right && one_right){
       digitalWrite(LED_PIN, LOW); //correct choices
       Serial.println("correct choice ");
+      digitalWrite(BLUE1,HIGH);
+      digitalWrite(BLUE2,HIGH);
+      digitalWrite(BLUE3,HIGH);
+      delay(waitTime/50);
+      digitalWrite(BLUE1,LOW);
+      digitalWrite(BLUE2,LOW);
+      digitalWrite(BLUE3,LOW);
+      delay(waitTime/50);
+      digitalWrite(BLUE1,HIGH);
+      digitalWrite(BLUE2,HIGH);
+      digitalWrite(BLUE3,HIGH);
+      delay(waitTime/50);
+      digitalWrite(BLUE1,LOW);
+      digitalWrite(BLUE2,LOW);
+      digitalWrite(BLUE3,LOW);
       delay(waitTime/10);
         //return to start of the loop
         return;
     }else{
       Serial.println("incorrect choice ");
-      digitalWrite(LED_PIN, HIGH); //incorrect choices
-      digitalWrite(LED_PIN,HIGH);
+      digitalWrite(RED1,HIGH);
+      digitalWrite(RED2,HIGH);
+      digitalWrite(RED3,HIGH);
       delay(waitTime/50);
-      digitalWrite(LED_PIN,LOW);
+      digitalWrite(RED1,LOW);
+      digitalWrite(RED2,LOW);
+      digitalWrite(RED3,LOW);
       delay(waitTime/50);
-      digitalWrite(LED_PIN,HIGH);
+      digitalWrite(RED1,HIGH);
+      digitalWrite(RED2,HIGH);
+      digitalWrite(RED3,HIGH);
       delay(waitTime/50);
-      digitalWrite(LED_PIN,LOW);
-      delay(waitTime/50);
-      digitalWrite(LED_PIN,HIGH);
-      delay(waitTime/50);
-      digitalWrite(LED_PIN,LOW);
-      delay(waitTime/50);
+      digitalWrite(RED1,LOW);
+      digitalWrite(RED2,LOW);
+      digitalWrite(RED3,LOW);
+      delay(waitTime/10);
         //return to start of the loop
         return;      
     }
