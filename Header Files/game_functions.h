@@ -9,7 +9,7 @@ namespace Games {
 
     int startTime = 0;
     int currentTime = 0;
-
+     
     char displayString[stringLength+1];
     char randomString[stringLength+1];
 
