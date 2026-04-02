@@ -1,5 +1,5 @@
 #ifndef TIMER_H
-static constexpr uint8_t  TIMER_H
+#define TIMER_H
 
 namespace Timer {
 
