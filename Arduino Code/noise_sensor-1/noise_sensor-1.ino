@@ -14,7 +14,7 @@ int maximumVolumeReached = 0;
 void loop() {
 
   int maxVal = 0;
-  int minVal = 1024;
+  int minVal = 128;
   int aRead = 0;
   
   // prevVolume = volume;
@@ -28,8 +28,8 @@ void loop() {
   volume = maxVal - minVal;
   prevVolume = lowPassFilter(volume, prevVolume, ALPHA);
   maximumVolumeReached = max(volume, maximumVolumeReached);
-  // Serial.println(prevVolume);     // Print the sensor value to the Serial Monitor
-  Serial.println(maximumVolumeReached);
+  Serial.println(prevVolume);     // Print the sensor value to the Serial Monitor
+  // Serial.println(maximumVolumeReached);
 }
 
 float lowPassFilter(float X, float Y, float a)

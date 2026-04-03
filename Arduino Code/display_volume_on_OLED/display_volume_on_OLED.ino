@@ -1,13 +1,13 @@
-#include <Adafruit_GFX.h>
-#include <Adafruit_SSD1306.h>
+#include <Wire.h>
 
-#define SCREEN_WIDTH 128 // OLED display width, in pixels
-#define SCREEN_HEIGHT 64 // OLED display height, in pixels
-#define SCREEN_ADDRESS 0x3C
+#include "OLED_2.h"
+#include "util.h"
+
 
 // Example code for HW484 v0.2: Reading an analog sensor
 #define NUM_SAMPLES 800
-#define ALPHA .5
+#define ALPHA .4
+#define SCALING_POWER .55
 
 
 int prevVolume = 0;
@@ -15,32 +15,23 @@ int volume = 0;
 int maximumVolumeReached = 0;
 
 int leftBound = 35; //random(10, 65);
-int rightBound = 92; //random(78, 118);
-
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
+int width = 65; //random(78, 118);
 
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
+  Wire.begin();
   delay(500);
 
-  if(!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
-    Serial.println(F("SSD1306 allocation failed"));
-    while(true); // Don't proceed, loop forever
-  }
+  OLED2::begin();
 
-  randomSeed(analogRead(A1));
-
-  // display.clearDisplay();
-  // display.fillRect(leftBound, 56, rightBound - leftBound, 8, WHITE);
-  // display.display();
-  
+  randomSeed(analogRead(A0));
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
   int maxVal = 0;
-  int minVal = 1024;
+  int minVal = 128;
   int aRead = 0;
   
   // prevVolume = volume;
@@ -52,17 +43,16 @@ void loop() {
   }
 
   volume = maxVal - minVal;
-  prevVolume = lowPassFilter(volume, prevVolume, ALPHA);
 
-  int boundedVol = prevVolume > 128 ? 128 : prevVolume;
-  display.clearDisplay();
-  display.fillCircle(boundedVol, 40, 5, WHITE);
-  display.fillRect(leftBound, 56, rightBound - leftBound, 8, WHITE);
-  display.display();
+  prevVolume = Util::lowPassFilter(volume, prevVolume, ALPHA);
+  Serial.println(volume);
+
+  int scaledVol = round( pow(prevVolume / 128.0, SCALING_POWER) * 128 );
+
+  int boundedVol = scaledVol > 128 ? 128 : scaledVol;
+
+  OLED2::showVolumeLevel(leftBound, width, boundedVol);
 
 }
 
-float lowPassFilter(float X, float Y, float a)
-{
-  return X + a * (Y - X); //EWMA Filter formula
-}
+// X = current reading; Y = prev reading; //a = alpha, the sampling factor
