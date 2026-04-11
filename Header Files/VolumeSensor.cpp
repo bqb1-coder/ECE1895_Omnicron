@@ -23,7 +23,7 @@ namespace VolumeSensor {
 		return maxVal - minVal;
 	}
 
-	int scaleVolume(int vol, float scalingFactor )
+	int scaleVolume(int vol, float scalingFactor)
 	{
 		return round( pow(vol / 128.0, scalingFactor) * 128 );
 	}

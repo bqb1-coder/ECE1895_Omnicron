@@ -7,6 +7,7 @@
 #include "timer.h"
 
 namespace Games {
-  bool keypadChallenge(int stringLength, int maxTime = 5000);
+  bool keypadChallenge(int stringLength);
+  bool volumeChallenge();
 }
 #endif

@@ -23,7 +23,7 @@ namespace OLED1
             return true;
 
         if (!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS))
-            Error::raiseError(__FILE__, __func__, "SSD1306 allocation failed");
+            Error::raiseError(__FILE__, __func__, "OLED 1 allocation failed");
 
         display.setTextColor(WHITE);
         display.clearDisplay();

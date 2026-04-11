@@ -3,11 +3,14 @@
 #include <string.h>
 #include "game_functions.h"
 #include "OLED_1.h"
+#include "OLED_2.h"
 #include "keypad.h"
 #include "timer.h"
+#include "util.h"
+#include "VolumeSensor.h"
 
 namespace Games {
-  bool keypadChallenge(int stringLength, int maxTime = 5000)
+  bool keypadChallenge(int stringLength)
   {
     char pressedChar = '-';
 
@@ -64,6 +67,51 @@ namespace Games {
       //When they get all correct, loop back around and go again
       if (numCorrect == stringLength)
         return true;
+    }
+  }
+
+
+  bool volumeChallenge()
+  {
+    const float ALPHA = .5;
+    const float SCALING_POWER = .55; 
+    randomSeed(analogRead(A0) * millis());
+
+    int startTime = millis();
+    int maxTime = 5000;
+
+    int rangeBase = 55;
+    int rangeWidth = rangeBase + (random(0,20) - 10);
+    int rangeLowerBound = random (20, 50);
+
+    int prevVolume = 0;
+    int volume = 0;
+
+    bool inRange = false;
+
+    while (1)
+    {
+      if (millis() - startTime >= maxTime)
+      {
+        return inRange;
+      }
+
+      // 1. get the raw volume reading
+      volume = VolumeSensor::readVolume(prevVolume);
+
+      // 2. Apply LPF on volume reading
+      prevVolume = Util::lowPassFilter(volume, prevVolume, ALPHA);
+
+      // 3. Scale volume using a scaling factor (0 <= SF <= 1); 0 -> always 128, 1 -> input vol
+      int scaledVolume = VolumeSensor::scaleVolume(prevVolume, SCALING_POWER);
+      scaledVolume -= 15;
+
+      // 4. The final volume is the volume value bounded 
+      int finalVolume = VolumeSensor::boundVolume(scaledVolume);
+
+      inRange = (finalVolume >= rangeLowerBound) && (finalVolume <= rangeLowerBound + rangeWidth);
+
+      OLED2::showVolumeLevel(rangeLowerBound, rangeWidth, finalVolume);
     }
   }
 }
