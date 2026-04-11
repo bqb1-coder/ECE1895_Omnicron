@@ -1,5 +1,4 @@
 #ifndef OLED_1_H
-// #ifdef INCLUDE_OLED_1
 #define OLED_1_H
 
 #include <Arduino.h>
