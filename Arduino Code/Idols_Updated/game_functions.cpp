@@ -125,7 +125,7 @@ namespace Games {
     Idols::IdolColor pos3 = Idols::pickThirdIdolColor(pos1, pos2);
     Idols::setAllLEDColors(pos1, pos2, pos3);
     
-    delay(GAME_TIME);
+    delay(5000);
 
     bool pos1Good = Idols::matchReadings(REED1, HALL1, pos1);
     bool pos2Good = Idols::matchReadings(REED2, HALL2, pos2);
