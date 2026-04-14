@@ -10,5 +10,6 @@ namespace Games {
   bool keypadChallenge(int stringLength);
   bool volumeChallenge();
   bool idolChallenge();
+  bool avoidChallenge();
 }
 #endif
