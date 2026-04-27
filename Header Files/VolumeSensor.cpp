@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include "VolumeSensor.h"
 #include "util.h"
+#include "pin_config.h"
 
 
 namespace VolumeSensor {
@@ -14,7 +15,7 @@ namespace VolumeSensor {
 
 		// Read in the samples to get the volume
 		for (int i = 0; i < NUM_SAMPLES ; i++) {
-			aRead = analogRead(SENSOR_PIN);
+			aRead = analogRead(MIC);
 			maxVal = max(maxVal, aRead);
 			minVal = min(minVal, aRead);
 		}

@@ -4,7 +4,6 @@
 #include <Arduino.h>
 
 namespace VolumeSensor {
-	static constexpr int SENSOR_PIN = A0; // A0
 	static constexpr float DEFAULT_SCALING_FACTOR = .55;
 
 	int readVolume(int prevVolume);

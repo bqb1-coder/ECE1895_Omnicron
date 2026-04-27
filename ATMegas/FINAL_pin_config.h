@@ -60,5 +60,39 @@
 
 #define MIC A0
 
+#define numOutputPins 13
+#define numInputPins  14
+static constexpr outputPins[numOutputPins] = {
+	TRIG1,
+	TRIG2,
+	TRIG3, 
+	ROW1,
+	ROW2,
+	ROW3,
+	ROW4, 
+	RED1,
+	RED2,
+	RED3,
+	BLUE1,
+	BLUE2,
+	BLUE3
+}
+
+static constexpr inputPins[numInputPins] = {
+	ECHO1,
+	ECHO2,
+	ECHO3,
+	COL1,
+	COL2,
+	COL3,
+	COL4,
+	REED1,
+	REED2,
+	REED3,
+	HALL1,
+	HALL2,
+	HALL3,
+	MIC
+}
 
 #endif

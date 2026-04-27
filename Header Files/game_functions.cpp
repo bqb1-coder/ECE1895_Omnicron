@@ -126,7 +126,7 @@ namespace Games {
         Idols::IdolColor pos3 = Idols::pickThirdIdolColor(pos1, pos2);
         Idols::setAllLEDColors(pos1, pos2, pos3);
 
-        delay(GAME_TIME);
+        delay(5000);
 
         bool pos1Good = Idols::matchReadings(REED1, HALL1, pos1);
         bool pos2Good = Idols::matchReadings(REED2, HALL2, pos2);
@@ -140,11 +140,9 @@ namespace Games {
     bool avoidChallenge()
     {
         for (int i = 1; i <= 3; i++)
-        {
-            if (Distance::read(i) <= Distance::RANGE)
-            {
+            if (Distance::read(i) <= Distance::RANGE) 
                 return false;
-            }
-        }
+
+        return true;
     }
 }

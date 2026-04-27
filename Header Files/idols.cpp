@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include "idols.h"
+#include "pin_config.h"
 
 namespace Idols
 {
@@ -90,8 +91,9 @@ namespace Idols
 	    case BLUE: // Reed HIGH, Hall HIGH
 	      correctHallValue = HIGH;
 	      break;
-	    case NONE: // Reed LOW, Hall LOW
+	    case NONE: // Reed LOW, Hall HIGH
 	      correctReedValue = LOW;
+	      correctHallValue = HIGH;
 	      break;
 	  }
 
