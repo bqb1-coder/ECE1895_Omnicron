@@ -34,35 +34,11 @@
 #define COL3 10 
 #define COL4 9
 
+#define INTERRUPT_PERIPHERAL A3
 
-/*
-#################
-	ATMEGA 2
-#################
-*/
-
-// IDOL CHALLENGE PINS
-#define REED1 9
-#define HALL1 8
-#define REED2 11
-#define HALL2 10
-#define REED3 13
-#define HALL3 12
-
-#define RED1  2
-#define BLUE1 3
-#define RED2  4
-#define BLUE2 5
-#define RED3  6
-#define BLUE3 7
-
-// AUDIO CHALLENGE PIN
-
-#define MIC A0
-
-#define numOutputPins 13
-#define numInputPins  14
-static constexpr outputPins[numOutputPins] = {
+#define numOutputPins 8
+#define numInputPins  7
+static constexpr int outputPins[numOutputPins] = {
 	TRIG1,
 	TRIG2,
 	TRIG3, 
@@ -70,29 +46,17 @@ static constexpr outputPins[numOutputPins] = {
 	ROW2,
 	ROW3,
 	ROW4, 
-	RED1,
-	RED2,
-	RED3,
-	BLUE1,
-	BLUE2,
-	BLUE3
-}
+	INTERRUPT_PERIPHERAL
+};
 
-static constexpr inputPins[numInputPins] = {
+static constexpr int inputPins[numInputPins] = {
 	ECHO1,
 	ECHO2,
 	ECHO3,
 	COL1,
 	COL2,
 	COL3,
-	COL4,
-	REED1,
-	REED2,
-	REED3,
-	HALL1,
-	HALL2,
-	HALL3,
-	MIC
-}
+	COL4
+};
 
 #endif
